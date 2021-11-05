@@ -1,0 +1,136 @@
+/*Segundo banner*/
+
+#outras_informações{
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: rgb(20,33,61);
+    height: 260px;   
+    border-radius: 15px;
+    
+}
+
+#frase_banner2{
+    color:white;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+#banner1{
+    margin-left: 20px;
+    height: 260px;
+    background-color: rgb(252,163,17);
+    border-radius: 15px;
+    padding:0px;
+    display:block;
+}
+
+#Informações_Básicas{
+    margin-left: 20px;
+    padding-top: 8px;
+    
+}
+#foto_perfil{
+    background-color: rgb(20,33,61);
+    height: 180px;
+    margin-left: 30px;
+    border-radius: 15px;
+    margin-top: 5px;
+    
+}
+
+#foto_perfil i{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#foto_perfil p{
+    color: white;
+    margin-left: 15px;
+    margin-top: 20px;
+    
+}
+#dados{
+    display: inline;
+   
+    margin-left: 20px;
+}
+#outras_informações label{
+    display: inline-block;
+    text-align: right;
+    color:white;
+}
+input[type=text]{
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+input[type=number]{
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    width: 20%;
+    margin-top: 10px;
+}
+input[type=email]{
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    width: 620px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+input[type=tel]{
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    width: 620px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#outras_informações input[type=text] {
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    width: 620px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+  input{
+      background-color: whitesmoke;
+  }
+
+  @media screen and (max-width: 768px){
+    #nome,#sobrenome,#idade{
+        width: 60%;
+        }
+    #email,#telefone,#endereco{
+        width: 60%;
+    }
+    
+    #endereco{
+        max-width: 208px;
+    }
+
+    #foto_perfil{
+       width: 50%;
+       
+    }
+    #banner1{
+        height: 440px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px){
+    #nome,#sobrenome,#idade{
+        width: 75%;
+        }
+    }

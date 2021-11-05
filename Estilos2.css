@@ -1,0 +1,85 @@
+
+
+#banner1{
+    background-color: rgb(20,33,61);
+    border-radius: 15px;
+    height: 102%;
+    margin-left: 20px;
+    display: block;
+    
+}
+
+#banner1 h1,h2,p,h4{
+    color: white;
+    padding:0px;
+    margin-bottom: 0px;
+}
+
+#frase1{
+   padding-top:8px;
+}
+
+#perfil{
+    padding-top: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+#foto{
+    background-color:white ;
+    height: 200px;
+}
+hr{
+    color: white;
+    margin-bottom: 0px;
+}
+
+#contato{
+    color: black;
+    background-color: rgb(252,163,17) ;
+    border-radius: 5px;
+    padding:8px;
+    border-style: solid;
+    border-color:black;
+    margin-top: 40px;
+    
+    
+}
+
+
+#pagamento{
+    margin-top: 30px;
+    
+}
+
+#contato:hover{
+    background-color:rgb(206, 129, 7); 
+    
+    
+}
+
+@media screen and (max-width: 768px){
+    #foto{
+        max-width: 84%;
+        margin-left: 10px;
+    }
+
+    #descrição{
+        padding-right: 40px;
+    }
+
+    #pagamento, #contato{
+        margin-left: 0px;
+       margin-left: 20%; 
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    #banner1{
+        width: 780px;
+    }
+    #contato{
+        width: 140px;
+    }
+    #foto{
+        margin-top: 20px;
+    }
+}
