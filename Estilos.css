@@ -192,7 +192,7 @@ input[id="checkbox_perfil"]:checked ~ #menu_dropdown li {
 /*Banner Principal*/
 
 #frase1{
-    padding-top: 30px;
+    padding-top: 15px;
     margin-left: 46px;
     margin-right: 0px;
     
@@ -280,7 +280,7 @@ input[id="checkbox_perfil"]:checked ~ #menu_dropdown li {
 }
 
 /*Banner Mapa*/
-#mapa{
+#banner_mapa{
     background-color:white;
     height: 400px;
     margin-left: 30px;
@@ -315,6 +315,86 @@ input[id="checkbox_perfil"]:checked ~ #menu_dropdown li {
    margin-left:20px;
    padding-top:8px;
 }
+
+#tela-cheia{
+    position: absolute;
+    display: inline;
+    width: 50px;
+    height: 30px;
+    background-color: rgb(20,33,61);
+    border-radius: 50%;
+    z-index: 5;
+}
+#botao-telacheia i{
+   margin-left:10px ;
+   margin-top: 5px;
+   
+}
+#telacheia{
+    display: none;
+}
+#mapa{
+    background-color:rgb(196,196,196);
+    width: 585px;
+    height: 300px;
+    
+}
+#icone_mapa{
+    padding-left: 2px;
+}
+
+#map{
+    height: 330px;
+    width: 585px;
+    position: relative;
+    display: flex;
+    top:0px;
+    
+}
+
+#botao-telacheia{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:rgb(20,33,61);
+    padding: 10px;
+    top:450px;
+    left: 520px;
+    z-index: 5;
+}
+
+#busca-mapa{
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    background-color:rgb(26, 47, 92);
+    bottom: 30px;
+    margin-left: 130px;
+    opacity: 0%;
+    transition: 0.5s;
+    padding:11px;
+    top:470px;
+}
+
+input[id=telacheia]:checked ~ #busca-mapa{
+    opacity: 100%;
+}
+
+
+input[id=searchInput]{
+    border: none;
+    background-color:whitesmoke;
+    border: 2px solid rgb(20,33,61);
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 330px;
+    
+    top:400px;
+
+}
+
+
+
 
 /*Corpo*/
 body{
@@ -387,14 +467,56 @@ main{
     #banner_secundario h2{
         margin-top: 10px;
     }
-    #mapa img{
-        max-width: 100%;
-        max-height: 100%;
+    
+
+    #map{
+        height: 100%;
+        width: 345px;
+        position: relative;
+        display: flex;
+        top:0px;
     }
 
+    #botao-telacheia{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color:rgb(20,33,61);
+        padding: 10px;
+        top:720px;
+        left: 280px;
+        z-index: 5;
+    }
+    
+    #busca-mapa{
+        width: 280px;
+        height: 60px;
+        background-color:rgb(26, 47, 92);
+        bottom: 30px;
+        margin-left: 30px;
+        opacity: 0%;
+        transition: 0.5s;
+        padding:11px;
+        top:730px;
+    }
+    
+    
+    input[id=searchInput]{
+        border: none;
+        background-color:whitesmoke;
+        border: 2px solid rgb(20,33,61);
+        padding: 5px;
+        margin-bottom: 10px;
+        width: 280px;
+        top:400px;
+    }
     #agenda{
         margin-left: 30px;
     }
+
+
+
+
 }
 
     @media screen and (min-width: 768px) and (max-width: 1024px){
@@ -476,6 +598,50 @@ main{
             margin-left: 50px;
             width: 358px;
         }
+
+        #map{
+            height: 100%;
+            width: 345px;
+            position: relative;
+            display: flex;
+            top:0px;
+        }
+    
+        #botao-telacheia{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color:rgb(20,33,61);
+            padding: 10px;
+            top:720px;
+            left: 280px;
+            z-index: 5;
+        }
+        
+        #busca-mapa{
+            width: 280px;
+            height: 60px;
+            background-color:rgb(26, 47, 92);
+            bottom: 30px;
+            margin-left: 30px;
+            opacity: 0%;
+            transition: 0.5s;
+            padding:11px;
+            top:730px;
+        }
+        
+        
+        input[id=searchInput]{
+            border: none;
+            background-color:whitesmoke;
+            border: 2px solid rgb(20,33,61);
+            padding: 5px;
+            margin-bottom: 10px;
+            width: 280px;
+            top:400px;
+        }
+
+        
 
 
 
