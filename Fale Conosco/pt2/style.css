@@ -1,0 +1,54 @@
+body{
+    background-color: #14213D;
+}
+
+header{
+   background-color: #14213D;
+   padding: 20px;
+   display: flex;
+}
+ul{
+  margin-left: 500px;
+  margin-top: 30px;
+}
+a{
+  color: #14213D;
+}
+
+header a:hover{
+  color: white;
+}
+
+.white-bg{
+    margin-top: 40px;
+    background-color: white;
+}
+
+.title{
+    margin-right: 5px;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    color: #14213D;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+main{
+    padding: 20px;
+}
+
+p.mensg{
+    text-align: center;
+}
+
+footer{
+    background-color: #14213D;
+    padding: 20px;
+}
+
+footer p{
+    color: #7cc2bb;
+    margin-top: 70px;
+}
+img.logo{
+    width: 200px;
+}

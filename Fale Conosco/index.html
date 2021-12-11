@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <header class="containerHeader">
+        <img src="imagens/api (1).png" class="logo">
+        <ul class="nav justify-content-end" >
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Voltar ao menu principal</a>
+          </li>
+        </ul>
+
+    </header>
+
+    <main>
+        
+        <div class="container h-100">
+            <div class="row align-items-center justify-content-center h-100 p-2">
+                <div class="col-sm-12 col-lg-10 col-xl-9 white-bg shadow rounded-lg px-5 py-4">
+                        <h1 class="title">Fale Conosco <img src="imagens/telef.png" class="tele"></h1>
+                        
+                    <form action="#" class="mb-5">
+                        <div class="form-row mb-4">
+                            <div class="col-sm-12 col-md-6 mb-5">
+                                <label for="nome" class="textNome mb-0" id="labelNome">Nome</label>
+                                <input type="text" id="nome" class="form-control bg-transparent shadow-none border-0 pl-0 input-field">
+                                <span class="d-block border-bottom"></span>
+                            </div>
+                            <div class="col-sm-12 col-md-6 mb-5">
+                                <label for="email" class="textEmail mb-0" id="labelEmail">E-mail</label>
+                                <input type="email" id="email" class="form-control bg-transparent shadow-none border-0 pl-0 input-field">
+                                <span class="d-block border-bottom"></span>
+                            </div>
+                            <div class="col-sm-12 mb-4">
+                                <label for="mensagem" class="textMensagem mb-0" id="labelMensagem">Mensagem</label>
+                                <textarea id="mensagem" rows="3" class="form-control bg-transparent shadow-none border-0 pl-0 input-field"></textarea>
+                                <span class="d-block border-bottom"></span>
+                            </div>
+                        </div>
+                        <button class="btn btn-danger rounded-pill px-5 btn-send" type="submit" onclick="validar()">Enviar</button>
+                    </form>
+                    <p class="redes">
+                        Entre em contato também através das nossas redes sociais: 
+                        <a href="https://www.instagram.com/collegarejobs/"><img src="imagens/insta.png" class="insta" ></a>
+                        <a href="https://pt2.luisanogueira2.repl.co"><img src="imagens/facebook-logo-facebook-logo-9.png"  id="face"><a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <script src = "script.js"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous">
+        </script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous">
+        </script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous">
+        </script>
+    </main>
+
+    <footer class="containerFooter">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 col-sm-7 col-md-9 col-lg-9">
+                    <p>Copyright 2021 - Luisa Nogueira</p>            
+                </div>
+            </div>
+           
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+</body>
+</html>

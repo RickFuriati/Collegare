@@ -1,0 +1,44 @@
+
+
+header{
+    background-color: #14213D;
+    padding: 20px;
+}
+
+header h1{
+    color: #FCA311;
+}
+
+body{
+  background-color: #C4C4C4;
+}
+
+
+
+.perfil{
+    margin-right: 30px;
+    
+    margin-left: 30px;
+    padding: 41.5px;
+}
+
+button#save{
+  margin-top: 20px;
+  float: right;
+
+}
+
+a#return{
+  margin-top: 20px;
+}
+
+
+
+footer{
+    background-color: #14213D;
+    padding: 20px;
+    
+}
+footer p{
+    color: #FCA311
+}

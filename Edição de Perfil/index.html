@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadastro </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="" href="perfil.js">
+    
+</head>
+<body>
+    <header class="containerHeader">
+        
+        
+          <h1>Collegare</h1>
+        <ul class="nav justify-content-end" >
+          
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Voltar ao menu principal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://perfil2.luisanogueira2.repl.co/?">Alterar senha</a>
+          </li>
+        </ul>
+        
+        
+        
+
+
+    </header>
+
+
+    <main>
+        <h1>Editar perfil</h1>
+        <div class="perfil" id="perfil">
+            <form class="row g-3" id="perfil">
+
+                <div class="col-12">
+                    <label for="user" class="form-label" id="labelUser">Usuário (*)</label>
+                    <input type="text" class="form-control" id="user" >
+                </div>
+
+                <div class="col-md-6">
+                    <label for="name" class="form-label" id="labelName">Nome (*)</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="lastName" class="form-label" id="labelLastName" >Sobrenome (*)</label>
+                    <input type="text" class="form-control" id="lastName">
+                </div>
+
+                <div class="col-md-6">
+                <label for="email" class="form-label" id="labelEmail">Email (*)</label>
+                <input type="email" class="form-control" id="email" >
+                </div>
+
+                <div class="col-md-6">
+                    <label for="telephone" class="form-label" id="labelTelephone">Telefone para contato (*)</label>
+                   <input type="tel" class="form-control"  placeholder="(DDD)XXXXX-XXXX" id="telephone">  
+                </div>
+
+                <div class="col-12">
+                     <label for="address" class="form-label" id="labelAddress">Endereço (*)</label>
+                     <input type="text" class="form-control" id="address" >
+                </div>
+
+                <div class="col-md-6">
+                    <label for="city" class="form-label" id="labelCity">Cidade (*)</label>
+                    <input type="text" class="form-control" id="city">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="state" class="form-state" id="labelState">Estado (*)</label>
+                    <input type="text" class="form-control" id="state">
+                </div>
+
+                </select>
+                </div>
+
+                    <div class="col-md-6">
+                      
+                   
+                      <button id="save" type="submit" class="btn btn-primary" onclick="validar()">Concluir</button>
+
+                      
+                    </div>
+                
+            </form>
+        </div>
+
+        
+        <script src = "script.js"></script>
+
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous">
+       </script>
+       <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous">
+       </script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous">
+        </script>
+
+    </main>
+
+    <footer class="containerFooter">
+
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 col-sm-7 col-md-9 col-lg-9">
+                    <p>Copyright 2021 - Luisa Nogueira</p>
+                              
+                </div>
+
+
+            </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Cadastro</title>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <!-- Optional CSS -->
+  <style>
+    .button {
+      border: thin;
+      border-radius: 10px;
+      background-color: #fca311;
+      min-height: 35px;
+      min-width: 65px;
+      float: right;
+      margin-top: 10px;
+    }
+
+    #btnMostrar {
+      margin-right: 10px;
+    }
+
+    .input {
+      border-radius: 2px;
+      margin-top: 7px;
+      border-color: #c4c4c4;
+    }
+
+    .cadastro {
+      margin-top: 100px;
+      margin-left: 500px;
+      margin-right: 500px;
+      color: #14213d;
+      border: solid;
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+    .titulo {
+      text-align: center;
+    }
+
+    .data {
+      background-color: #c4c4c4;
+      margin-top: 50px;
+      padding: 15px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <section name="evento" class="cadastro row">
+      <h2 class="titulo">Cadastro</h2>
+      <!-- Nome -->
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <input class="input" id="inputNome" type="text" placeholder="Nome Completo" style="width: 100%" />
+      </div>
+
+      <!-- Empresa -->
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <input class="input" id="inputEmpresa" type="text" placeholder="Nome da Empresa" style="width: 100%;">
+      </div>
+      <!-- Categoria -->
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <input class="input" id="inputCategoria" type="text" placeholder="Categoria" style="width: 100%" />
+      </div>
+      <!-- Endereço -->
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <input class="input" id="inputEndereco" type="text" placeholder="Endereço Completo" style="width: 100%" />
+      </div>
+      <!-- Telefone -->
+      <div class="col-sm-4 col-md-4 col-lg-4">
+        <input class="input" id="inputTelefone" type="text" placeholder="Telefone" style="width: 100%" />
+      </div>
+      <!-- Email -->
+      <div class="col-sm-8 col-md-8 col-lg-8">
+        <input name="eventoEmail" class="input" id="inputEmail" type="text" placeholder="Email" style="width: 100%" />
+      </div>
+      <!-- Descrição -->
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <input class="input" id="inputDescricao" type="text" placeholder="Descrição" style="width: 100%" />
+      </div>
+      <!-- Buttons -->
+      <div class="col-sm-11 col-md-11 col-lg-11">
+        <button class="button" id="btnMostrar" type="submit">Mostrar</button>
+      </div>
+      <div class="col-sm-1 col-md-1 col-lg-1">
+        <button class="button" id="btnEnviar" type="submit">Enviar</button>
+      </div>
+
+    </section>
+  </div>
+
+  <!-- Tela -->
+  <div class="container-fluid">
+    <section class="data row">
+      <div id="tela"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
